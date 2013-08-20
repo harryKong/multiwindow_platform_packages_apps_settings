@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2008 The Android Open Source Project
+ * Copyright (C) 2013 Tieto Poland Sp. z o.o.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -107,6 +108,7 @@ public class Settings extends PreferenceActivity
             R.id.device_section,
             R.id.sound_settings,
             R.id.display_settings,
+            R.id.cornerstone_settings,
             R.id.storage_settings,
             R.id.application_settings,
             R.id.battery_settings,
@@ -816,6 +818,7 @@ public class Settings extends PreferenceActivity
     public static class UserDictionarySettingsActivity extends Settings { /* empty */ }
     public static class SoundSettingsActivity extends Settings { /* empty */ }
     public static class DisplaySettingsActivity extends Settings { /* empty */ }
+    public static class CornerstoneSettingsActivity extends Settings { /* empty */ }
     public static class DeviceInfoSettingsActivity extends Settings { /* empty */ }
     public static class ApplicationSettingsActivity extends Settings { /* empty */ }
     public static class ManageApplicationsActivity extends Settings { /* empty */ }

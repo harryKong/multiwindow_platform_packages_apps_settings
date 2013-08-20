@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2013 Tieto Poland Sp. z o.o.
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -1804,6 +1805,31 @@
     <string name="summary_font_size" translatable="false">%1$s</string>
     <!-- [CHAR LIMIT=40] Sound & display settings screen, title of dialog for picking font size -->
     <string name="dialog_title_font_size">Font size</string>
+
+    <!--  Cornerstone string -->
+    <string name="cornerstone_settings">MultiWindow</string>
+    <string name="empty_str"></string>
+    <string name="add_new_window">+</string>
+    <string name="remove_window">-</string>
+    <string name="Warning">You cannot remove the last panel!</string>
+    <string name="defaultApp">com.tieto.multiwindow.launcher.MWLauncher</string>
+    <!-- Cornerstone settings names for General Preferences -->
+    <string name="pref_general_category">General</string>
+    <string name="pref_start_on_boot_title">Autostart</string>
+    <string name="pref_start_on_boot_summary">Do you want to start MultiWindow when system loads?</string>
+    <!-- Cornerstone settings names for Application Preferences -->
+    <string name="pref_application_count">MultiWindow App Count</string>
+    <string name="pref_application_count_summary">How many apps you want to display?</string>
+    <string name="pref_application_category">Application settings</string>
+    <string name="pref_application_name">Application Name</string>
+    <string name="pref_application_name_summary">Which application you want to run in this panel?</string>
+    <string name="pref_application_name_title">Select application you want to run in panel</string>
+    <!-- Cornerstone settings keys -->
+    <string name="key_general_category_screen_name">general_screen</string>
+    <string name="key_app_name_count">app_name_size</string>
+    <string name="key_app_name">app_name</string> <!-- to this value index will be added f.g. app_name_0,app_name_1,etc -->
+    <string name="key_start_on_boot">start_on_boot</string>
+    <string name="key_application_preference_screen">prefereference_screen</string>
 
     <!-- SIM lock settings title -->
     <string name="sim_lock_settings">SIM card lock settings</string>

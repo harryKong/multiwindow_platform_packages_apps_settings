@@ -3,6 +3,7 @@
 /*
 **
 ** Copyright 2007 The Android Open Source Project
+** Copyright 2013 Tieto Poland Sp z o.o.
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -772,4 +773,13 @@
         <!-- Always allow app to send to premium SMS short code. -->
         <item>Always allow</item>
     </string-array>
+
+        <!--Cornerstone Prefered Application Count Do not translate. -->
+    <string-array name="pref_application_count_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
 </resources>

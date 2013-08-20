@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2010 The Android Open Source Project
+     Copyright (C) 2013 Tieto Poland Sp. z o.o.
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -75,6 +76,13 @@
         android:icon="@drawable/ic_settings_display"
         android:fragment="com.android.settings.DisplaySettings"
         android:title="@string/display_settings" />
+
+    <!-- Multiwindow -->
+    <header
+        android:id="@+id/cornerstone_settings"
+        android:icon="@drawable/cs_launch_icon"
+        android:fragment="com.android.settings.MultiwindowSettings"
+        android:title="@string/cornerstone_settings" />
 
     <!-- Storage -->
     <header
