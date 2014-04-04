@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2008 The Android Open Source Project
+ * Copyright (C) 2014 Tieto Poland Sp. z o.o.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -141,6 +142,13 @@ public class Settings extends PreferenceActivity
             R.id.wireless_settings,
             R.id.device_section,
             R.id.sound_settings,
+            /**
+             * Date: 4 Apr 2014
+             * Copyright (C) 2014 Tieto Poland Sp. z o.o.
+             *
+             * Expand Settings with Jabol settings.
+             */
+            R.id.jabol_settings,
             R.id.display_settings,
             R.id.storage_settings,
             R.id.application_settings,
@@ -321,6 +329,13 @@ public class Settings extends PreferenceActivity
         UserDictionaryList.class.getName(),
         UserDictionarySettings.class.getName(),
         SoundSettings.class.getName(),
+        /**
+         * Date: 4 Apr 2014
+         * Copyright (C) 2014 Tieto Poland Sp. z o.o.
+         *
+         * Expand Settings with Jabol settings.
+         */
+        JabolSettings.class.getName(),
         DisplaySettings.class.getName(),
         DeviceInfoSettings.class.getName(),
         ManageApplications.class.getName(),
@@ -1076,6 +1091,13 @@ public class Settings extends PreferenceActivity
     public static class LocalePickerActivity extends Settings { /* empty */ }
     public static class UserDictionarySettingsActivity extends Settings { /* empty */ }
     public static class SoundSettingsActivity extends Settings { /* empty */ }
+    /**
+     * Date: 4 Apr 2014
+     * Copyright (C) 2014 Tieto Poland Sp. z o.o.
+     *
+     * Expand settings with Jabol settings.
+     */
+    public static class JabolSettingsActivity extends Settings { /* empty */ }
     public static class DisplaySettingsActivity extends Settings { /* empty */ }
     public static class DeviceInfoSettingsActivity extends Settings { /* empty */ }
     public static class ApplicationSettingsActivity extends Settings { /* empty */ }

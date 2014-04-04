@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2010 The Android Open Source Project
+     Copyright (C) 2014 Tieto Poland Sp. z o.o.
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -75,6 +76,18 @@
         android:icon="@drawable/ic_settings_sound"
         android:fragment="com.android.settings.SoundSettings"
         android:title="@string/sound_settings" />
+
+    <!--
+         Date: 4 Apr 2014
+         Copyright (C) 2014 Tieto Poland Sp. z o.o.
+
+         Expand Settings with Jabol settings.
+    -->
+    <header
+        android:id="@+id/jabol_settings"
+        android:icon="@drawable/ic_settings_jabol"
+        android:fragment="com.android.settings.JabolSettings"
+        android:title="@string/jabol_settings" />
 
     <!-- Display -->
     <header

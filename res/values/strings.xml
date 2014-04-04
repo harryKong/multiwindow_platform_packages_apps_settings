@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2014 Tieto Poland Sp. z o.o.
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -1787,6 +1788,17 @@
     <!-- Sound settings screen, setting option name checkbox. About vibration setting
          during incoming calls. [CHAR LIMIT=30] -->
     <string name="vibrate_when_ringing_title">Vibrate when ringing</string>
+
+    <!--
+         Date: 4 Apr 2014
+         Copyright (C) 2014 Tieto Poland Sp. z o.o.
+
+         Jabol settings names and other strings.
+    -->
+    <!-- Jabol settings screen heading -->
+    <string name="jabol_settings">Jabol</string>
+    <!-- Tieto multiwindow title -->
+    <string name="tieto_multiwindow_title">Tieto Multiwindow</string>
 
     <!-- Dock settings title, top level -->
     <string name="dock_settings">Dock</string>
